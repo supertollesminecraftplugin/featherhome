@@ -1,0 +1,5 @@
+name: FeatherHome
+main: de.drmaxnix.featherhome.Featherhome
+version: 1.0.0
+api-version: 1.13
+commands:
