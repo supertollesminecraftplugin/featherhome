@@ -3,3 +3,9 @@ main: de.drmaxnix.featherhome.Featherhome
 version: 1.0.0
 api-version: 1.13
 commands:
+    home:
+        description: Sends you home!
+        usage: /home
+    sethome:
+        description: Sets your new home location
+        usage: /sethome
