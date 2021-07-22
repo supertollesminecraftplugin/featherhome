@@ -90,8 +90,9 @@ public class Data {
 		}
 	}
 	
-	
-	
+	/*
+		Set new home-LOCATION for UUID's home with HOMENAME
+	*/
 	public static boolean setHomeLocation(UUID uuid, String homeName, Location location){
 		// ENSURE THE FILE EXISTS //
 		try {
@@ -157,6 +158,9 @@ public class Data {
 		return true;
 	}
 	
+	/*
+		Get home-LOCATION for UUID's home with HOMENAME
+	*/
 	public static Location getHomeLocation(UUID uuid, String homeName){
 		// ENSURE THE FILE EXISTS //
 		try {
